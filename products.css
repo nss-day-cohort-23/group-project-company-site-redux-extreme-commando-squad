@@ -1,0 +1,18 @@
+.products-page {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.products-page img {
+    width: 50%;
+    height: auto;
+}
+
+.body {
+    width: 90%;
+    margin: 0 auto;
+}
+
