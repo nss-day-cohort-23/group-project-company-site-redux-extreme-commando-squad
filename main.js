@@ -53,22 +53,24 @@ var products = [
 for (var i=0; i<products.length; i++) {
     console.log(products[i]);
     if (i === 0) {
-        document.getElementById(" ").innerHTML+= '<img src="' + products[i].img + '">' + "<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>"
+        document.getElementById("Ray-Ban Classic").innerHTML+= '<img src="' + products[i].img + '">' + "<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>"
     } else if (i === 1) {
-        document.getElementById(" ").innerHTML+= '<img src="' + products[i].img + '">' + "<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>" 
+        document.getElementById("Ray-Ban Aviator").innerHTML+= '<img src="' + products[i].img + '">' + "<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>" 
     } else if (i === 2) {
-        document.getElementById(" ").innerHTML+= '<img src="' + products[i].img + '">' + "<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>" 
+        document.getElementById("Ray-Ban Erika").innerHTML+= '<img src="' + products[i].img + '">' + "<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>" 
     } else if (i === 3) {
-        document.getElementById(" ").innerHTML+= '<img src="' + products[i].img + '">' + "<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>" 
+        document.getElementById("Oakley Classic").innerHTML+= '<img src="' + products[i].img + '">' + "<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>" 
     } else if (i === 4) {
-        document.getElementById(" ").innerHTML+= '<img src="' + products[i].img + '">' + "<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>"
+        document.getElementById("Prada Classic").innerHTML+= '<img src="' + products[i].img + '">' + "<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>"
     } else if (i === 5) {
-        document.getElementById(" ").innerHTML+= '<img src="' + products[i].img + '">' + "<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>"  
+        document.getElementById("Maui Jim Classic").innerHTML+= '<img src="' + products[i].img + '">' + "<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>"  
     } else if (i === 6) {
-        document.getElementById(" ").innerHTML+= '<img src="' + products[i].img + '">' + "<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>"  
+        document.getElementById("Gucci Classic").innerHTML+= '<img src="' + products[i].img + '">' + "<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>"  
     } else if (i === 7) {
-        document.getElementById(" ").innerHTML+= '<img src="' + products[i].img + '">' + "<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>" 
+        document.getElementById("Burberry Classic").innerHTML+= '<img src="' + products[i].img + '">' + "<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>" 
     }
+}
+console.log(products);
 
 
 
