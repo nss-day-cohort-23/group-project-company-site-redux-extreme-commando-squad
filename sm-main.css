@@ -16,3 +16,7 @@ p {
 .title {
   color: rgb(5, 125, 245);
 }
+
+.nav-bar, .footer {
+  color: white;
+}
