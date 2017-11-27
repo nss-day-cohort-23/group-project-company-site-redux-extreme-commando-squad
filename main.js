@@ -42,7 +42,7 @@ var products = [
       description: "For those with ridiculously expensive taste (but know that they still block the same amount of sun as the $100 pair)"
     },
     {
-      img: "images/burberry-classic.jpg",
+      img: "images/burberry-classic.jpeg",
       name: "Burberry Classic",
       price: "$470",
       description: "Modern...but functional style"
