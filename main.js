@@ -1,49 +1,48 @@
-<<<<<<< HEAD
 var products = [
     {
-      img: "",
+      img: "images/rayban-classic.jpeg",
       name: "Ray-Ban Classic",
       price: "$129",
       description: "Classic frat shades"
     },
     {
-      img: "",
+      img: "images/rayban-aviator.jpeg",
       name: "Ray-Ban Aviator",
       price: "$149",
       description: "Shades for the chillest of people (also: for more than just pilots)"
     },
     {
-      img: "",
+      img: "images/rayban-erika.jpeg",
       name: "Ray-Ban Erika",
       price: "$114",
       description: "The bridge between classic style and fresh input"
     },
     {
-      img: "",
+      img: "images/oakley-classic.jpeg",
       name: "Oakley Classic",
       price: "$299",
       description: "The fastest shades in the race"
     },
     {
-      img: "",
+      img: "images/prada-classic.jpeg",
       name: "Prada Classic",
       price: "$348",
       description: "Chic and stylish, with sparkly charm"
     },
     {
-      img: "",
+      img: "images/maui-jim-classic.jpeg",
       name: "Maui Jim Classic",
       price: "$249",
       description: "Standard neat-guy shades"
     },
     {
-      img: "",
+      img: "images/gucci-classic.jpeg",
       name: "Gucci Classic",
       price: "$829",
       description: "For those with ridiculously expensive taste (but know that they still block the same amount of sun as the $100 pair)"
     },
     {
-      img: "",
+      img: "images/burberry-classic.jpg",
       name: "Burberry Classic",
       price: "$470",
       description: "Modern...but functional style"
@@ -70,6 +69,6 @@ for (var i=0; i<products.length; i++) {
     } else if (i === 7) {
         document.getElementById(" ").innerHTML+= '<img src="' + products[i].img + '">' + "<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>" 
     }
-=======
 
->>>>>>> master
+
+
