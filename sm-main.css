@@ -1,0 +1,18 @@
+body {
+  color: lightslategray;
+
+}
+
+h2 {
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.title {
+  color: rgb(5, 125, 245);
+}
