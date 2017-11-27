@@ -1,0 +1,34 @@
+.container{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#career {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.career-summary {
+  border: 2px solid;
+  border-color: lightslategray;
+  margin: 10px;
+  width: 30%;
+}
+
+.career-block {
+  padding: 10px;
+}
+
+.career-title {
+    font-size: 25px;
+    color: rgb(5, 125, 245);
+}
+
+.career-date {
+  color: lightslategray;
+  font-size: 15px;
+}
+
+.career-text {
+  color: lightslategray;
+}
