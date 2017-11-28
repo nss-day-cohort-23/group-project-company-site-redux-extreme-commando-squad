@@ -53,7 +53,7 @@ var products = [
 for (var i=0; i<products.length; i++) {
     console.log(products[i]);
     if (i === 0) {
-        document.getElementById("Ray-Ban Classic").innerHTML+= '<img src="' + products[i].img + '">' + "<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>"
+        document.getElementById("Ray-Ban Classic").innerHTML+= '<img src="' + products[i].img + '">' + "<h3>" + products[i].name + "</h3>" + "<br>" + "<p>" + products[i].description + "<br>" + products[i].price + "</p>" + "<br>"
     } else if (i === 1) {
         document.getElementById("Ray-Ban Aviator").innerHTML+= '<img src="' + products[i].img + '">' + "<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>" 
     } else if (i === 2) {

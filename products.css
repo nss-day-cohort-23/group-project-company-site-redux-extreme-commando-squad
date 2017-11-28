@@ -1,15 +1,15 @@
 .products-page {
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: stretch;
 }
 
-.products-page img {
+/* .products-page img {
     width: 50%;
     height: auto;
-}
+} */
 
 .body {
     width: 90%;
