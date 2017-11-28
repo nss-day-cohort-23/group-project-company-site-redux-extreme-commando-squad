@@ -7,6 +7,7 @@ ul {
 body{
     margin: auto;
     font-family: "titillium web", sans-serif;
+  background-color: lightgray;
 }
 
 .background {
@@ -17,14 +18,17 @@ body{
     text-align: center;
     color: rgb(5,125,245);
     font-size: 60px;
+
     background-color: lightgray;
     margin: auto;
     padding: 10px;
-    
+
 }
 
 .nav-bar {
+    margin: auto;
     text-align: center;
+    margin: auto;
     background-color: rgb(119, 136, 153);
     width: 100%;
     color: white;
@@ -37,15 +41,29 @@ body{
     font-family: 'Titillium Web', sans-serif;
     text-decoration: none;
  }
-.nav-bar li {
+
+.nav-bar li{
     display: inline-block;
 }
+
 .sunglass-logo {
     width: 50px;
     height: 25px;
 }
 
+.mainimage img {
+    width: 100%;
+    margin-right: -5px;
+    height: 400px;
+  }
+  
+  .mainimage p {
+    font-family: 'Titillium Web', sans-serif;
+    color: black
+  } 
+
 .footer {
+    margin: auto;
     background-color: lightslategray;
     position: absolute;
     bottom: 0;
@@ -123,5 +141,32 @@ body{
     font-size: 20px;
     text-align: center;
 
+}
+
+/* CONTACT PAGE */
+
+.contact-form  {
+    padding-bottom: 20px;
+    margin-left: 45%;
+    justify-content: center;
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+}
+
+.background-contact {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-head {
+    text-align: center;
+}
+
+.contact-head p {
+    font-size: 20px;
 }
 
