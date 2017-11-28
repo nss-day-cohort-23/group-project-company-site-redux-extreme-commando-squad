@@ -2,6 +2,21 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
+.container h1{
+text-align: center;
+}
+
+.container img {
+  width: 33%;
+  margin-left: -5px;
+  margin-right: -5px;
+  height: 300px;
+}
+
+#imagebox{
+  margin-left: 35px;
+}
+
 #career {
   display: flex;
   flex-wrap: wrap;
@@ -13,9 +28,6 @@
   border-color: lightslategray;
   margin: 10px;
   width: 30%;
-}
-
-.career-block {
   padding: 10px;
 }
 
@@ -31,4 +43,25 @@
 
 .career-text {
   color: lightslategray;
+}
+
+/* Footer */
+.bottom {
+  background-color:lightslategray;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  color: white;
+}
+
+.bottom li {
+  display: inline-block;
+  padding: 0px;
+  margin: 5px
+}
+
+.bottom img {
+  width: 25px;
+  height: 25px;
 }
