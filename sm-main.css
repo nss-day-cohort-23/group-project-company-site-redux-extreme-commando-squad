@@ -1,16 +1,13 @@
 body {
   color: lightslategray;
-
-}
-
-h2 {
   font-family: 'Titillium Web', sans-serif;
-  text-align: center;
 }
 
-p {
-  font-family: 'Open Sans', sans-serif;
+h2, p {
   text-align: center;
+
+}
+
 }
 
 .title {
