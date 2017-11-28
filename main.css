@@ -6,15 +6,33 @@ ul {
 
 body{
     margin: auto;
+    font-family: "titillium web", sans-serif;
+  background-color: lightgray;
+}
+
+.background {
     background-color: lightgray;
 }
 
+.product-head {
+    text-align: center;
+    color: rgb(5,125,245);
+    font-size: 60px;
+
+    background-color: lightgray;
+    margin: auto;
+    padding: 10px;
+
+}
+
 .nav-bar {
+    margin: auto;
     text-align: center;
     margin: auto;
     background-color: rgb(119, 136, 153);
     width: 100%;
     color: white;
+    margin: auto;
 
 }
 .nav-bar a{
@@ -54,6 +72,7 @@ body{
     height: 60px;
     text-align: center;
     color: white;
+
 }
 
 
@@ -72,9 +91,83 @@ body{
 /* PRODUCT CARDS */
 
 .product-card {
-    /* border: 1px solid black; */
-    display: flex;
+    border: 5px solid lightslategray;
+    border-radius: 4px;
+    /* display: flex; */
     box-shadow:0 4px 4px 0 rgba(0, 0, 0, 0.363);
     align-items: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+
+
 	
 }
+
+.product-card img {
+    width: 300px;
+    height: 175px;
+    /* border-top: 5px inset lightgray;
+    border-left: 5px inset lightgray;
+    border-bottom: 6px inset slategray;
+    border-right: 6px inset slategray; */
+}
+
+.product-cards-section {
+    display: inline-flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* flex:1; */
+
+}
+
+.product-card p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: slategray;
+    
+
+    
+}
+
+.product-card h3 {
+    text-align: center;
+    font-size: 32px;
+    color: slategray;
+}
+
+.product-card h4 {
+    color: rgb(5,125,245);
+    font-size: 20px;
+    text-align: center;
+
+}
+
+/* CONTACT PAGE */
+
+.contact-form  {
+    padding-bottom: 20px;
+    margin-left: 45%;
+    justify-content: center;
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+}
+
+.background-contact {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-head {
+    text-align: center;
+}
+
+.contact-head p {
+    font-size: 20px;
+}
+
