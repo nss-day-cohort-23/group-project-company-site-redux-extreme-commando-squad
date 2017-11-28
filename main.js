@@ -15,19 +15,19 @@ var products = [
       img: "images/rayban-erika.jpeg",
       name: "Ray-Ban Erika",
       price: "$114",
-      description: "The Bridge Between Classic Style and Fresh Input"
+      description: "Classic and Fresh"
     },
     {
       img: "images/oakley-classic.jpeg",
       name: "Oakley Classic",
       price: "$299",
-      description: "The Fastest Shades In The Race"
+      description: "Oakley is no Jokely"
     },
     {
       img: "images/prada-classic.jpeg",
       name: "Prada Classic",
       price: "$348",
-      description: "Chic and Stylish, With Sparkly Charm"
+      description: "Chic and Stylish"
     },
     {
       img: "images/maui-jim-classic.jpeg",
@@ -39,13 +39,13 @@ var products = [
       img: "images/gucci-classic.jpeg",
       name: "Gucci Classic",
       price: "$829",
-      description: "For Those With Ridiculously Expensive Taste (But Know That They Still Block The Same Amount of Sun as The $100 Pair)"
+      description: "Treat Yourself"
     },
     {
       img: "images/burberry-classic.jpeg",
       name: "Burberry Classic",
       price: "$470",
-      description: "Modern...but Functional Style"
+      description: "Modern and Functional"
     }
     
   ]
