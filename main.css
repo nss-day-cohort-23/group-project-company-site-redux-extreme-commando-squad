@@ -21,6 +21,7 @@ body{
 }
 
 .nav-bar {
+    margin: auto;
     text-align: center;
     margin: auto;
     background-color: rgb(119, 136, 153);
@@ -125,5 +126,32 @@ body{
     font-size: 20px;
     text-align: center;
 
+}
+
+/* CONTACT PAGE */
+
+.contact-form  {
+    padding-bottom: 20px;
+    margin-left: 45%;
+    justify-content: center;
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+}
+
+.background-contact {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-head {
+    text-align: center;
+}
+
+.contact-head p {
+    font-size: 20px;
 }
 
