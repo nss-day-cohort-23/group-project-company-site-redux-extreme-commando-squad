@@ -1,0 +1,38 @@
+.products-page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+/* .products-page img {
+    width: 50%;
+    height: auto;
+} */
+
+.body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footerpr {
+    background-color: lightslategray;
+    opacity: 40%;
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+.footerpr li {
+    display: inline-block;
+    padding: 0px;
+    margin: 5px
+}
+
+.footerpr img {
+    width: 25px;
+    height: 25px;
+}
