@@ -24,6 +24,7 @@ text-align: center;
 }
 
 .career-summary {
+  background-color: white;
   border: 2px solid;
   border-color: lightslategray;
   margin: 10px;
@@ -47,6 +48,7 @@ text-align: center;
 
 /* Footer */
 .bottom {
+  margin: auto;
   background-color:lightslategray;
   bottom: 0;
   width: 100%;
