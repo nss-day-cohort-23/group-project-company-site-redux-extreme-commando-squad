@@ -1,0 +1,16 @@
+body {
+  color: lightslategray;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h2, p {
+  text-align: center;
+}
+
+.title {
+  color: rgb(5, 125, 245);
+}
+
+.nav-bar, .footer {
+  color: white;
+}
